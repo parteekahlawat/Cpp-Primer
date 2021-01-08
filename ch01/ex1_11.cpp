@@ -18,8 +18,8 @@ void print_range(int lo, int hi)
 int main()
 {
     int low = 0, high = 0;
-    printf("please input two integers:\n");
-    scanf("%d%d",low,high);
+    cout<<"please input two integers:\n";
+    cin>>low>>high;
     print_range(low, high);
     return 0;
 }
