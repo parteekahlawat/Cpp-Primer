@@ -1,11 +1,12 @@
 // prints the numbers from ten down to zero.(use while)
 
 #include <iostream>
-
+#include<stdio.h>
+using namespace std;
 int main()
 {
     int i = 10;
     while (i >= 0)
-        std::cout << i-- << " ";
+        printf("%d ",i--);
     return 0;
 }
