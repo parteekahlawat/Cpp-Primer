@@ -1,9 +1,8 @@
 // Print each number in the range specified by two integers.
 
 #include <iostream>
-
-using std::cout;
-using std::cin;
+#include<stdio.h>
+using namespace std;
 
 void print_range(int lo, int hi)
 {
@@ -19,8 +18,8 @@ void print_range(int lo, int hi)
 int main()
 {
     int low = 0, high = 0;
-    cout << "please input two integers:\n";
-    cin >> low >> high;
+    printf("please input two integers:\n");
+    scanf("%d%d",low,high);
     print_range(low, high);
     return 0;
 }
